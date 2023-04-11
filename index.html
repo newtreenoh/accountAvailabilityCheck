@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">    
+    <title>Account Availability Checker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <main>
+        <div>
+            <h1 id="pageTitle">Account Availability Checker</h1>
+        </div>
+        <div class="userInput">
+            <input 
+                id="textInput" 
+                type="text"
+                placeholder="Please enter your username here..."
+            >
+            <br>
+            <button id="submitButton" type="button">Submit</button> 
+        </div>
+        <div>
+            <table>
+                <tr>
+                  <th>Provider</th>
+                  <th>Availability</th>                  
+                </tr>
+                <tr>
+                  <td><div class="fa fa-google"></div> Google</td>
+                  <td>✔️</td>
+                </tr>
+                <tr>
+                  <td>GitHub</td>
+                  <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>CodePen</td>
+                    <td>✔️</td>
+                  </tr>
+                <tr>
+                  <td><div class="fa fa-instagram"></div> Instagram</td>
+                  <td>✔️</td>
+                </tr>
+                <tr>
+                  <td><div class="fa fa-dribbble"></div> Dribbble</td>
+                  <td>❌</td>
+                </tr>
+                <tr>
+                  <td>Behance</td>
+                  <td>❌</td>
+                </tr>
+              </table>
+        </div>
+    </main>
+  </body>
+</html>
