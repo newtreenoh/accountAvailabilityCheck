@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pageTitle {
+    text-align: center;  
+    padding: 1% 0 0 0;  
+}
+
+.userInput{
+    display: grid;
+    place-items: center;
+}
+
+#textInput, #submitButton, table{
+    padding: 1% 0;
+    width: 70%;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 0.5% 0;
+}
+
+#textInput{
+    text-align: center;
+    border-style: double;
+}
+
+#submitButton{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+}
+
+table {    
+    border-collapse: collapse;
+    text-align: center;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td, th {
+    border: none;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #E4E4E4;
+  }
